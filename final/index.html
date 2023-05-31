@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>golam kobir</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,600&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Owl Stylesheets--> 
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- javascript-->
+    <script src="./assets/vendors/jquery.min.js"></script>
+    <script src="./assets/owlcarousel/owl.carousel.js"></script>
+ <!--CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="foods-area">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="https://fruits-stock-house.web.app/static/media/logo.91238daa34155969e060.png"alt="">
+          </a>
+        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active-1" style="color: green; text-decoration: underline wavy" href="./index.html" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog/index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sign up/index.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-1" href="./log in/index.html">Log in</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+  <div class="cw-area">
+   
+  <section id="demos">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+             <div class="cw-section">
+              <div class="cw-inner">
+                <div class="frood-desc">
+                  <h3>mango</h3>
+                  <p>Mangos are also rich in vitamin C, which is important for forming blood vessels and healthy collagen, as well as helping you heal. Mangos are rich in beta-carotene, a pigment responsible for the yellow-orange color of the fruit. Beta-carotene is an antioxidant, just one of many found in mangos</p>
+                </div>
+              </div>
+             </div>
+          </div>
+
+          <div class="item">
+            <div class="cw-section">
+             <div class="cw-inner-1">
+               <div class="frood-desc">
+                 <h3>mango</h3>
+                 <p>Mangos are also rich in vitamin C, which is important for forming blood vessels and healthy collagen, as well as helping you heal. Mangos are rich in beta-carotene, a pigment responsible for the yellow-orange color of the fruit. Beta-carotene is an antioxidant, just one of many found in mangos</p>
+               </div>
+             </div>
+            </div>
+            </div>
+            <div class="item">
+              <div class="cw-section">
+               <div class="cw-inner-3">
+                 <div class="frood-desc">
+                   <h3>mango</h3>
+                   <p>Mangos are also rich in vitamin C, which is important for forming blood vessels and healthy collagen, as well as helping you heal. Mangos are rich in beta-carotene, a pigment responsible for the yellow-orange color of the fruit. Beta-carotene is an antioxidant, just one of many found in mangos</p>
+                 </div>
+               </div>
+              </div>
+           </div>
+         
+           <div class="item">
+            <div class="cw-section">
+             <div class="cw-inner-4">
+               <div class="frood-desc">
+                 <h3>mango</h3>
+                 <p>Mangos are also rich in vitamin C, which is important for forming blood vessels and healthy collagen, as well as helping you heal. Mangos are rich in beta-carotene, a pigment responsible for the yellow-orange color of the fruit. Beta-carotene is an antioxidant, just one of many found in mangos</p>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          $(document).ready(function() {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+              items: 1,
+              loop: true,
+              margin: 10,
+              autoplay: true,
+              autoplayTimeout: 1800,
+              autoplayHoverPause: true
+            });
+            $('.play').on('click', function() {
+              owl.trigger('play.owl.autoplay', [1000])
+            })
+            $('.stop').on('click', function() {
+              owl.trigger('stop.owl.autoplay')
+            })
+          })
+        </script>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="service-section">
+  <div class="single-sirvice">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="service-title">
+            <h3>Find the perfect and fresh fruit from our stack of fruits. Huge collection, amazing, best quality.</h3>
+          </div>
+          <div style="background-color: #198754;width:18%; height:4px; text-align: center; opacity: .5; margin: auto; margin-top:30px;" class="bar-buttom"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box bd-border">
+           <div class="ss-service">
+            <div class="service-header">
+              <h3>COCONAT</h3>
+            </div>
+            <div class="service-image">
+              <img src="https://i.ibb.co/BPSp3j2/coconut.jpg" alt="">
+            </div>
+            <div class="price-bb">
+              <div class="price-section">
+                <div class="product-price">
+                  <p>price: <strong> $66 </strong><span>/kg</span></p>
+                  <p style="text-align:right; float: right; font-size:17px;line-height: 23px;">Supplier : <strong>Hasib</strong></p>
+                </div>
+                <div class="product-desc">
+                  <p>Coconuts are distinct from other fruits because their endosperm contains a large quantity of cl</p>
+                   
+                  <div class="p-btn">
+                     <a href="./coconat/index.html">...Read Details</a>
+                  </div>
+                  <hr>
+                  <div class="price-bottom">
+                    <p>In stock: 7kg</p> <a class="right" href="./log in/index.html" >updated coconut Stock</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box bd-border">
+           <div class="ss-service">
+            <div class="service-header">
+              <h3>PINEAPPLE</h3>
+            </div>
+            <div class="service-image">
+              <img src="https://i.ibb.co/zNWG0Nd/pineapple.jpg" alt="">
+            </div>
+            <div class="price-bb">
+              <div class="price-section">
+                <div class="product-price">
+                  <p>price: <strong> $59 </strong><span>/kg</span></p>
+                  <p style="text-align:right; float: right; font-size:17px;line-height: 23px;">Supplier : <strong>Hasib</strong></p>
+                </div>
+                <div class="product-desc">
+                  <p>Pineapples are delicious, versatile, and loaded with nutrients and antioxidants. Their nutrient</p>
+                   
+                  <div class="p-btn">
+                     <a href="./pineapple/index.html">...Read Details</a>
+                  </div>
+                  <hr>
+                  <div class="price-bottom">
+                    <p>In stock: 15kg</p> <a class="right" href="./log in/index.html" >updated pineple Stock</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box bd-border">
+           <div class="ss-service">
+            <div class="service-header">
+              <h3>NUT</h3>
+            </div>
+            <div class="service-image">
+              <img src="https://i.ibb.co/rctfKC6/nut.jpg" alt="">
+            </div>
+            <div class="price-bb">
+              <div class="price-section">
+                <div class="product-price">
+                  <p>price: <strong> $66 </strong><span>/kg</span></p>
+                  <p style="text-align:right; float: right; font-size:17px;line-height: 23px;">Supplier : <strong>Hasib</strong></p>
+                </div>
+                <div class="product-desc">
+                  <p>A nut is a fruit consisting of a hard or tough nutshell protecting a kernel which is usually ed</p>
+                   
+                  <div class="p-btn">
+                     <a href="./nut/index.html">...Read Details</a>
+                  </div>
+                  <hr>
+                  <div class="price-bottom">
+                    <p>In stock: 7kg</p> <a class="right" href="./log in/index.html" >updated nut Stock</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box bd-border">
+           <div class="ss-service">
+            <div class="service-header">
+              <h3>GRAPES</h3>
+            </div>
+            <div class="service-image">
+              <img src="https://i.ibb.co/YPTBcP2/grape.jpg" alt="">
+            </div>
+            <div class="price-bb">
+              <div class="price-section">
+                <div class="product-price">
+                  <p>price: <strong> $66 </strong><span>/kg</span></p>
+                  <p style="text-align:right; float: right; font-size:17px;line-height: 23px;">Supplier : <strong>Hasib</strong></p>
+                </div>
+                <div class="product-desc">
+                  <p>A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant ge</p>
+                   
+                  <div class="p-btn">
+                     <a href="./grapes/index.html">...Read Details</a>
+                  </div>
+                  <hr>
+                  <div class="price-bottom">
+                    <p>In stock: 56kg</p> <a class="right" href="./log in/index.html" >updated grapes Stock</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box bd-border">
+           <div class="ss-service">
+            <div class="service-header">
+              <h3>MANGO</h3>
+            </div>
+            <div class="service-image">
+              <img src="https://i.ibb.co/mHsJmG9/mango.jpg" alt="">
+            </div>
+            <div class="price-bb">
+              <div class="price-section">
+                <div class="product-price">
+                  <p>price: <strong> $58 </strong><span>/kg</span></p>
+                  <p style="text-align:right; float: right; font-size:17px;line-height: 23px;">Supplier : <strong>Hasib</strong></p>
+                </div>
+                <div class="product-desc">
+                  <p>Mangos are also rich in vitamin C, which important forming blood vessels and healthy col</p>
+                   
+                  <div class="p-btn">
+                     <a href="./mango/index.html">...Read Details</a>
+                  </div>
+                  <hr>
+                  <div class="price-bottom">
+                    <p>In stock: 60kg</p> <a class="right" href="./log in/index.html" >updated mango Stock</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box bd-border">
+           <div class="ss-service">
+            <div class="service-header">
+              <h3>ORANGE</h3>
+            </div>
+            <div class="service-image">
+              <img src="https://i.ibb.co/Yf8nf9v/orange.jpg" alt="">
+            </div>
+            <div class="price-bb">
+              <div class="price-section">
+                <div class="product-price">
+                  <p>price: <strong> $66 </strong><span>/kg</span></p>
+                  <p style="text-align:right; float: right; font-size:17px;line-height: 23px;">Supplier : <strong>Hasib</strong></p>
+                </div>
+                <div class="product-desc">
+                  <p>An orange is a fruit of various citrus species in the family Rutaceae; it primarily refers to C</p>
+                   
+                  <div class="p-btn">
+                     <a href="./orange/index.html">...Read Details</a>
+                  </div>
+                  <hr>
+                  <div class="price-bottom">
+                    <p>In stock: 60kg</p> <a class="right" href="./log in/index.html" >updated orange Stock</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>
+        </div>
+        <div class="inventory">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="inven">
+                <a href="./log in/index.html">Manage Inventories</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- question section -->
+<div class="question-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12">
+        <div class="question">
+          <h3>Any Question From you?</h3>
+          <p><strong>Have any Question About our products? or About "Fruits-Stock-house"?</strong> no problem, you can ask without any confusion. Because we are able to describe our all products transparency. And we know clearly about the quality of "Fruits-Stock-house" fruits.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="question-box">
+          <a href="mailto: abc@example.com">For any inquiry   <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- article-area -->
+<div class="article-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h3>Out Fruit Article</h3>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="single-article">
+          <div class="article">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="ar-image">
+                  <img src="https://i.ibb.co/BPSp3j2/coconut.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="img-nm">
+                  <h3>coconut</h3>
+                  <p>Coconuts are distinct from other fruits because their endosperm contains a large quantity of clear liquid, called coconut water or coconut juice. Mature, ripe coconuts can be used as edible seeds, or <a class="bg-bt" href="./coconat/index.html">...Read more</a></p>
+                  <span>62742662288c13423864925f</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="single-article">
+          <div class="article">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="ar-image">
+                  <img src="https://i.ibb.co/zNWG0Nd/pineapple.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="img-nm">
+                  <h3>pineapple</h3>
+                  <p>Coconuts are distinct from other fruits because their endosperm contains a large quantity of clear liquid, called coconut water or coconut juice. Mature, ripe coconuts can be used as edible seeds, or <a class="bg-bt" href="./pineapple/index.html">...Read more</a></p>
+                  <span>88542662288c13423864925f</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="single-article">
+          <div class="article">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="ar-image">
+                  <img src="https://i.ibb.co/rctfKC6/nut.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="img-nm">
+                  <h3>nut</h3>
+                  <p>A nut is a fruit consisting of a hard or tough nutshell protecting a kernel which is usually edible. In general usage and in a culinary sense, a wide variety of dry seeds are called nuts, but in a bot <a class="bg-bt" href="./nut/index.html">...Read more</a></p>
+                  <span>62742662288c13423864925d</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="single-article">
+          <div class="article">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="ar-image">
+                  <img src="https://i.ibb.co/YPTBcP2/grape.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="img-nm">
+                  <h3>Grapes</h3>
+                  <p>A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes can be eaten fresh as table grapes, used for making wine, jam, grape juice, jelly, grap <a class="bg-bt" href="./grapes/index.html">...Read more</a></p>
+                  <span>62742662288c13423864925a</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- background section -->
+<div class="bg-area">
+  <div class="bg-section">
+    <div class="log-img">
+      <img src="https://fruits-stock-house.web.app/static/media/logo.91238daa34155969e060.png" alt="">
+    </div>
+    <div class="bg-btn">
+      <a href="./log in/index.html">Check our store graph</a>
+    </div>
+  </div>
+</div>
+
+<!-- footer section -->
+<div class="footer-area">
+  <div class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+         <div class="footer">
+          <div class="footer-text">
+            <p>Copyright @ 2022 Fruits Stock House </p>
+          </div>
+          <div class="socal-icon">
+            <div class="icon">
+              <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Famikibria"  target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a href="https://github.com/kibria-khandaker" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="hhttps://www.linkedin.com/authwall?trk=bf&trkInfo=AQHam3BbjBy9KwAAAYPl5qq46mbYY1PZ1jV8mPmonMzAOtz1ipFuA8pvWJL2iVLons8WNiDiazMjwPvOUqnACQo5FMN2_0INdG5OQ6-pHsjAXkJoCqYsNcm8C9Szi1XgXXiZUak=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkibria-khandaker%2F" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- partial -->
+<script  src="./assets/js/script.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- vendors-->
+<script src="./assets/vendors/highlight.js"></script>
+<script src="./assets/js/app.js"></script> 
+</body>
+</html>
